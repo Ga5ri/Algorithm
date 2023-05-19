@@ -1,17 +1,17 @@
-package Day1;
+package Day2;
 
 import java.util.Scanner;
 
-public class MultiplicationNumber
+public class MinusNumber
 {
     public static void main(String[] args)
     {
-        // 두 수 곱하기 - 10998번
+        // 두 수 빼기 - 1001번 문제
         Scanner sc = new Scanner(System.in);
 
         int A = sc.nextInt();
         int B = sc.nextInt();
 
-        System.out.println(A*B);
+        System.out.println(A-B);
     }
 }
